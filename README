@@ -1,0 +1,23 @@
+                                   =====
+                                   KTRAY
+                                   =====
+
+                               Sebastian Sumpf
+
+Ktray is a simple Qt-based keyboard-layout-status indicator for your system
+tray. It was born out of the annoyance of the current Gnome development,
+especially when using a different window manager (like ion3).
+
+Compilation
+###########
+
+! qmake
+! make
+
+start 'ktray'
+
+License
+#######
+
+MIT see 'main.cpp'
+
