@@ -42,7 +42,7 @@ class Win : public QDialog
 		void _update_icon()
 		{
 			QStringList lang = QString(qApp->keyboardInputLocale().name()).split("_");
-			QPixmap pix(12, 12);
+			QPixmap pix(15, 15);
 			pix.fill(QColor(0, 0, 0, 0));
 
 			QPainter paint(&pix);
